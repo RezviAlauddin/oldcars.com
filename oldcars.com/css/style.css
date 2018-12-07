@@ -1,0 +1,225 @@
+body{
+	background-color: black;
+}
+.nav{
+	background-color:black ;
+	height:70px;
+	width: 100%;
+	
+}
+
+.nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+.nav ul li {
+	display: inline-block;
+	color: white;
+}
+#home {
+	float: left;
+	margin-right: 70px;
+	margin-top: 15px;
+} 
+
+#home a {
+	text-decoration-line: none;
+	color: white;
+
+}
+#home a:hover {
+	text-decoration-line: none;
+	color: #ff9900;
+
+}
+
+#nav_right{
+	float: right;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 25px
+}
+#nav_right a{
+		text-decoration-line: none;
+			color: white;
+
+
+}
+#nav_right a:hover {
+	text-decoration-line: none;
+	color: #ff9900;
+
+}
+
+
+
+
+
+
+
+#search{
+	background-color: black;
+	color: white;
+	margin:0px; 
+}
+#search_btn{
+		background-color: black;
+	height: 32px;
+	margin:0px;
+}
+
+#search:hover{
+	background-color: #4d4dff;
+
+}
+
+
+
+
+.slider{
+	background-image: url("../image/car.jpeg");
+	position: relative;
+	background-size: cover;
+		background-repeat: no-repeat;
+	    background-color:#4d4dff;
+	    color: white;     
+	    height: 500px;
+	    width: 100%;
+    border: 3px ;
+}
+.slider_footer{
+	bottom: 5px;
+	position: absolute;
+height: 200px;
+width: 100%;
+
+
+}
+
+#search_one {
+text-align:center;
+}
+
+#search_one select{
+	height: 50px;
+	width: 150px;
+	font-family: 'FontAwesome';
+	text-align: center;
+}
+#search_banner{
+	height: 70px;
+	text-align: center;
+	margin: 10px;
+}
+#asearch{
+	height: 50px;
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.display{
+	background-color: white;
+	height: 900px;
+	width: 100%;
+}
+
+
+.s{
+	background-color: #003300;
+	color: white;
+
+}
+/*model hover*/
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #ff9933;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.user{
+	background-color: green;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	background-color: #000066;
+	height:200px;
+	width: 100%;
+}
+/*sign in */
+.signin{
+		margin: 0px  500px 100px;
+}
+
+.signin table{
+	background-color: #ccff66;
+	color: black;
+	
+
+}
+/*login*/
+.login{
+		margin: 0px  500px 100px;
+}
+
+.login table{
+	background-color: #ccff66;
+	color: black;
+	
+
+}
